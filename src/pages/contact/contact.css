@@ -1,0 +1,566 @@
+.c{
+    background-color: #e2e2e2;
+    height: 90vh;
+    position: relative;
+    
+}
+.c-bg{
+    
+    background-color: #59b256;
+    height: 100%;
+    width: 20px;
+    
+    position: absolute;
+}
+.c-wrapper{
+    padding: 50px;
+    display: flex;
+    
+}
+.c-left{
+    flex: 1;
+    position: relative;
+}
+
+.c-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.c-title{
+    font-size: 60px;
+    font-weight: 400;
+    margin-left: 40px;
+    width: 80%;
+    margin-top: 140px;
+}
+
+
+
+.jm-logo{
+    margin-top: 20px;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    background-color: #333;
+    border-radius: 35px;
+    height: 340px;
+    width: 85%;
+}
+.jm-logo a {
+    /* flex-direction: row;
+    flex-wrap: wrap;
+    margin: 150px 150px; */
+    /* margin: 150px 60px; */
+    /* margin-top: 150px;
+    margin-left: 80px; */
+    /* align-items: center;
+    justify-content: center; */
+    padding: 60px;
+    
+}
+
+.jm-logo img{
+    width: 80px;
+    height: 80px;
+    margin-top: 60px;
+    margin-left: 120px;
+}
+.jm-logo img:hover, 
+.jm-logo img:focus, 
+.jm-logo img:active {
+	-webkit-animation-name: buzz;
+	animation-name: buzz;
+	-webkit-animation-duration: 0.15s;
+	animation-duration: 0.15s;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+	
+@-webkit-keyframes buzz {
+  	50% {
+  	    -ms-transform: translateX(3px) rotate(2deg);
+	    -webkit-transform: translateX(3px) rotate(2deg);
+	    transform: translateX(3px) rotate(2deg);
+  	}
+  	100% {
+	    -ms-transform: translateX(-3px) rotate(-2deg);
+	    -webkit-transform: translateX(-3px) rotate(-2deg);
+	    transform: translateX(-3px) rotate(-2deg);
+  	}
+}
+@keyframes buzz {
+  	50% {
+	    -ms-transform: translateX(3px) rotate(2deg);
+	    -webkit-transform: translateX(3px) rotate(2deg);
+	    transform: translateX(3px) rotate(2deg);
+  	}
+  	100% {
+	    -ms-transform: translateX(-3px) rotate(-2deg);
+	    -webkit-transform: translateX(-3px) rotate(-2deg);
+	    transform: translateX(-3px) rotate(-2deg);
+  	}
+}
+
+.c-email{
+    color: #59b256;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 80%;
+    font-size: 25px;
+}
+.c-phone{
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+.c-desc{
+    font-size: 30px;
+    margin-top: 180px;
+    
+}
+.c-desc b{
+    font-size: 35px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+input{
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+    border-radius: 8px;
+    
+}
+textarea{
+    
+    width: 90%;
+    display: flex;
+    margin: 20px 0px;
+    font-size: 16px;
+    padding-left: 10px;
+    resize: none;
+    border-radius: 8px;
+}
+button{
+    width: 15%;
+    border: none;
+    padding: 10px;
+    background-color: #59b256;
+    color: white;
+    font-weight: 500;
+    font-size: 23px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width:480px){
+    .c{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        resize: none;
+    }
+    .c-wrapper{
+        padding: 0px 10px;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .c-title{
+        font-size: 35px;
+        width: 80%;
+        margin-top: 60px;
+    }
+    
+
+    .c-email{
+        
+        margin-left: 15px;
+        margin-top: 25px;
+        font-size: 18px;
+        width: 90%;
+    }
+    .c-phone{
+        margin-top: 15px;
+        margin-left: 15px;
+        font-size: 18px;
+    }
+
+    .jm-logo{
+        margin-top: 10px;
+        margin-left: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        border-radius: 35px;
+        height: 230px;
+        width: 90%;
+    }
+    .jm-logo a {
+        padding: 0px;
+        margin: 0px;
+    }
+    .jm-logo img{
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+        margin-left: 80px;
+        
+    }
+
+    .c-desc{
+        font-size: 30px;
+        margin-top: 30px;
+        margin-left: 35px;
+        
+    }
+    form{
+        margin-left: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input{
+        width: 70%;
+        height: 40px;
+        margin: 10px;
+        margin-left: 0px;
+        
+        
+        
+    }
+    textarea{
+        
+        width: 90%;
+        display: flex;
+        margin: 10px 0px;
+        font-size: 16px;
+        padding-left: 10px;
+        resize: none;
+        border-radius: 8px;
+    }
+    
+    button{
+        border-bottom: 20px;
+        width: 30%;
+        padding: 6px;
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width:768px){
+    .c{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        resize: none;
+    }
+    .c-wrapper{
+        padding: 0px 7px;
+        
+        flex-wrap: wrap;
+    }
+    
+    .c-title{
+        font-size: 40px;
+        width: 80%;
+        margin-top: 60px;
+    }
+    
+
+    .c-email{
+        word-wrap: break-word;
+        margin-left: 15px;
+        margin-top: 25px;
+        font-size: 20px;
+        width: 80%;
+    }
+    .c-phone{
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    .jm-logo{
+        margin-top: 10px;
+        margin-left: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        border-radius: 35px;
+        height: 250px;
+        width: 85%;
+    }
+    .jm-logo a {
+        padding: 0px;
+        margin: 0px;
+    }
+    .jm-logo img{
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+        margin-left: 90px;
+        
+    }
+
+    .c-desc{
+        font-size: 25px;
+        margin-top: 50px;
+        margin-left: 0px;
+        
+    }
+    form{
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input{
+        width: 90%;
+        height: 50px;
+        margin: 10px;
+        margin-left: 0px;
+        font-size: 20px;
+        
+        
+    }
+    textarea{
+        
+        width: 90%;
+        display: flex;
+        margin: 20px 0px;
+        font-size: 20px;
+        padding-left: 10px;
+        resize: none;
+        border-radius: 8px;
+    }
+    button{
+        font-size: 18px;
+        width: 40%;
+        padding: 8px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1024px) and (max-width:1600px){
+    .jm-logo{
+        margin-top: 10px;
+        margin-left: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        border-radius: 35px;
+        height: 280px;
+        width: 95%;
+    }
+    .jm-logo a {
+        padding: 0px;
+        margin: 0px;
+    }
+    .jm-logo img{
+        width: 60px;
+        height: 60px;
+        margin-top: 50px;
+        margin-left: 110px;
+        
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px){
+    .c{
+        height: auto;
+    }
+    .c-wrapper{
+        padding: 20px;
+        display: flex;
+        
+    }
+    .c-title{
+        font-size: 40px;
+        width: 80%;
+        margin-top: 60px;
+    }
+    .c-left{
+        flex: 1;
+        position: relative;
+    }
+    
+    .c-right{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .jm-logo{
+        margin-top: 10px;
+        margin-left: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        
+        height: 280px;
+        width: 95%;
+    }
+    .jm-logo a {
+        padding: 0px;
+        margin: 0px;
+    }
+    .jm-logo img{
+        width: 60px;
+        height: 60px;
+        margin-top: 50px;
+        margin-left: 100px;
+        
+    }
+
+    .c-email{
+        
+        margin-left: 10px;
+        margin-top: 35px;
+        font-size: 20px;
+        width: 100%;
+    }
+    .c-phone{
+        margin-top: 15px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+
+    .c-desc{
+        margin-top: 70px;
+        margin-left: 40px;
+    }
+    form{
+        margin-left: 40px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input{
+        width: 80%;
+        height: 40px;
+        margin: 5px;
+        margin-left: 0px; 
+    }
+    button{
+        font-size: 18px;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:380px){
+    .c{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        resize: none;
+    }
+    .c-wrapper{
+        padding: 0px 10px;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .c-title{
+        font-size: 35px;
+        width: 80%;
+        margin-top: 60px;
+    }
+    
+
+    .c-email{
+        word-wrap: break-word;
+        margin-left: 15px;
+        margin-top: 20px;
+        font-size: 16px;
+        width: 90%;
+    }
+    .c-phone{
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+
+    .jm-logo{
+        margin-top: 10px;
+        margin-left: 13px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        border-radius: 35px;
+        height: 230px;
+        width: 85%;
+    }
+    .jm-logo a {
+        padding: 0px;
+        margin: 0px;
+    }
+    .jm-logo img{
+        width: 50px;
+        height: 50px;
+        margin-top: 40px;
+        margin-left: 70px;
+        
+    }
+
+    .c-desc{
+        font-size: 30px;
+        margin-top: 30px;
+        margin-left: 35px;
+        
+    }
+    form{
+        margin-left: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input{
+        width: 70%;
+        height: 40px;
+        margin: 10px;
+        margin-left: 0px;
+        
+        
+        
+    }
+    textarea{
+        
+        width: 90%;
+        display: flex;
+        margin: 10px 0px;
+        font-size: 16px;
+        padding-left: 10px;
+        resize: none;
+        border-radius: 8px;
+    }
+    
+    button{
+        border-bottom: 20px;
+        width: 30%;
+        padding: 6px;
+        font-size: 18px;
+    }
+
+}
