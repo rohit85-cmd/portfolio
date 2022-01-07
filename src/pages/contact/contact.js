@@ -53,13 +53,13 @@ const Contact = () => {
                             <a className="git" href="https://github.com/rohit85-cmd" target="_blank" rel="noreferrer">
                                 <img src={Github} alt="" />
                             </a>
-                            <a className="link" href="https://www.linkedin.com/in/rohit-jindamwar-644260194/" target="_blank" rel="noreferrer">
+                            <a className="link" href="https://www.codechef.com/users/rohitjindamwar" target="_blank" rel="noreferrer">
                                 <img src={codechef} alt="" />
                             </a>
-                            <a className="twitt" href="https://twitter.com/RohitJindamwar" target="_blank" rel="noreferrer">
+                            <a className="twitt" href="https://www.hackerrank.com/rohitjindamwar11" target="_blank" rel="noreferrer">
                                 <img src={hackerrank} alt="" />
                             </a>
-                            <a className="mail" href="mailto: rohitjindamwar123@gmail.com" target="_blank" rel="noreferrer">
+                            <a className="mail" href="https://leetcode.com/booster_rj/" target="_blank" rel="noreferrer">
                                 <img src={leetcode} alt="" />
                             </a>
                         </div>
