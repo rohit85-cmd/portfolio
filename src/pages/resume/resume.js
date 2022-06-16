@@ -30,7 +30,7 @@ const Resume = () => {
 						<h2 className="r-title">Position of Responsibility
 						</h2>
 						<div className="r-desc">
-							<h3 className="r-year">June 2021 - Present</h3>
+							<h3 className="r-year">June 2021 - May 2022</h3>
 							<b>Web Developer at</b>
 							<p className="r-name">Student's Association of Information Technology</p>
 							<p className="r-info"><li>Developed and maintaining website of the club.</li> </p>
@@ -46,13 +46,13 @@ const Resume = () => {
 						</h2>
 						<div className="r-desc">
 							<h3 className="r-skill">Programming Langauges</h3>
-							<p className="r-info">&emsp;&emsp;&emsp;&emsp;C, C++, Java, Python</p><br />
+							<p className="r-info">&emsp;&emsp;&emsp;&emsp;C, C++, Java</p><br />
 
 							<h3 className="r-skill">Web Development</h3>
 							<p className="r-info">&emsp;&emsp;&emsp;&emsp;HTML, CSS, JavaScript, React.js</p><br />
 
 							<h3 className="r-skill">Databases</h3>
-							<p className="r-info">&emsp;&emsp;&emsp;&emsp;MySQL, Firebase</p><br />
+							<p className="r-info">&emsp;&emsp;&emsp;&emsp;MySQL, Firebase, Mongo DB</p><br />
 						</div>
 					</div>
 
