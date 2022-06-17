@@ -48,16 +48,16 @@ const Navbar = () => {
           }>
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="/portfolio/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/about">about</NavLink>
+              <NavLink to="/portfolio/about">about</NavLink>
             </li>
             <li>
-              <NavLink to="/resume">resume</NavLink>
+              <NavLink to="/portfolio/resume">resume</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">contact</NavLink>
+              <NavLink to="/portfolio/contact">contact</NavLink>
             </li>
           </ul>
 
